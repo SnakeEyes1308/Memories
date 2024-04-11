@@ -25,7 +25,7 @@ try {
     res.json('Signup successful');
 } catch (error) {
     next(error);
-}
+} 
 
 
 };
