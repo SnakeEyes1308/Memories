@@ -23,7 +23,8 @@
                     active = {tab === 'profile'}
                     icon={HiUser} 
                     label={"User"} 
-                    labelcolor='dark'>
+                    labelcolor='dark'
+                    as='div'>
                         Profile
                     </Sidebar.Item>
              </Link>
