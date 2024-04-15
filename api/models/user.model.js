@@ -19,7 +19,12 @@
          type: String,
          default: 'https://i.stack.imgur.com/FJ65f.png',
      },
-    }, {timestamps: true}
+     isAdmin: {
+        type: Boolean,
+        default: false,
+     },
+    }, 
+    {timestamps: true}
 );
 
 const User = mongoose.model('User', userSchema);
