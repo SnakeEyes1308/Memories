@@ -32,6 +32,7 @@ export const getposts = async (req, res, next) => {
         const posts = await Post.find({
             ...(req.query.userId && [{userId: req.query.userId}]),
             ...(req.query.catergory && [{catergory: req.query.catergory}]),
+            ...(req.query.slug && [{slug: req.query.slug}]),
             ...(req.query.postId && [{_id: req.query.postId}]),
             ...(req.query.searchTerm && {
                 $or: [
