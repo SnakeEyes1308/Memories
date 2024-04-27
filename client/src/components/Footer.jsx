@@ -81,9 +81,9 @@ export default function FooterCom() {
     <div className='w-full sm:flex sm:items-center sm:justify-between'>
         <Footer.Copyright by="Memories Blog" href='#' year={new Date().getFullYear()}/>
         <div className='flex gap-3 sm:mt-0 mt-4 sm:justify-center'>
-            <Footer.Icon href='#' icon={BsFacebook} />
-            <Footer.Icon href='#' icon={BsInstagram} />
-            <Footer.Icon href='#' icon={BsTwitterX} />
+            <Footer.Icon href='https://www.facebook.com/' icon={BsFacebook} target='_blank' />
+            <Footer.Icon href='https://www.instagram.com/snakeeyes_1011/?hl=en' icon={BsInstagram} target='_blank' />
+            <Footer.Icon href='https://twitter.com/?lang=en' icon={BsTwitterX} target='_blank' />
             <Footer.Icon href='https://github.com/SnakeEyes1308' icon={BsGithub} />
             <Footer.Icon href='https://discord.gg/5Sr89HJKV5' icon={BsDiscord} />
         </div>

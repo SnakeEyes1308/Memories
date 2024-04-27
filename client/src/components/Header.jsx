@@ -127,7 +127,7 @@ export default function Header()
           </Navbar.Link>
           <Navbar.Link active={path==="/projects"}as={'div'}>
             <Link to='/projects'>
-              Projects
+              Community
             </Link>
           </Navbar.Link>
         </Navbar.Collapse>
